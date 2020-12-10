@@ -1,0 +1,31 @@
+.menu {
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+.ourMenu {
+  text-align: center;
+}
+.ourMenu h1 {
+  font-size: 35px;
+  color: rgb(21, 32, 88);
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
+  margin-bottom: 3px;
+  text-transform: capitalize;
+}
+.underline {
+  width: 6rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: goldenrod;
+}
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2.5rem auto;
+  width: 400px;
+}

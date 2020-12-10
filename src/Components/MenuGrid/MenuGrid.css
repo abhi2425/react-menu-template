@@ -1,0 +1,25 @@
+.menuGrid {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem 3rem;
+}
+@media screen and (max-width: 800px) {
+  .menuGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .menuItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menuItem__image {
+    width: 90vw;
+  }
+}

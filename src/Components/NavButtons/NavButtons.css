@@ -1,0 +1,19 @@
+.navButton {
+  background: transparent;
+  font-size: 18px;
+  border: none;
+  color: goldenrod;
+  cursor: pointer;
+  padding: 7px 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.navButton:hover {
+  color: white;
+  background-color: goldenrod;
+  transition: all 0.4s linear;
+}
+.active {
+  background-color: goldenrod;
+}
